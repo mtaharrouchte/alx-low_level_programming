@@ -1,18 +1,15 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - print alphabets
+ * print_alphabet_x10  - iterator x10
+ *
+ * Return: void
  */
-
-void print_alphabet_x10(void)
+void print_alphabet_x10()
 {
-	int count = 0;
-	char i;
-
-	while (count++ <= 9)
+	char counter = 0u;
+	while (counter++ < 11)
 	{
-		for (i = 'a' ; i <= 'z' ; i++)
-			_putchar(i);
-		_putchar('\n');
+		print_alphabet();
 	}
 }
