@@ -17,5 +17,5 @@ int main(void)
 		_putchar(*(string_ptr + charCount - 1));
 	}
 
-	return 0;
+	return (0);
 }
