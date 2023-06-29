@@ -14,7 +14,6 @@ void print_rev(char *s)
 	const int s_size = strlen(s);
 	char *rev_s = (char *) malloc(s_size);
 	
-	
 	if (s != NULL && rev_s != NULL)
 	{
 		int index = 0;
