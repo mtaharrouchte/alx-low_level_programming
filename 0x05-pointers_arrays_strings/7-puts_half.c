@@ -12,13 +12,22 @@
 void puts_half(char *str)
 {
 	char *EXCEPTION_ERR = "NULL_POINTER";
-	int half_size = 0;
+	int size = 0;
 	char *half = NULL;
 
 	if (str != NULL)
 	{
-		half_size = strlen(str) / 2;
-		half = str + half_size;
+		size = strlen(str);
+
+		if (size % 2 != 0)
+		{
+			half = (str + (size / 2) + 1);
+		}
+		else
+		{
+			half = (str + (size / 2));
+		}
+
 		puts(half);
 	}
 	else
