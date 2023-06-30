@@ -17,17 +17,16 @@ void print_array(int *a, int n)
 
 	if (a != NULL)
 	{
-		while (index < n)
+		while ((index < n) && (n > 0))
 		{
-			if (index != n-1)
+			if (index != n - 1)
 			{
-				printf("%d, ",a[index]);
+				printf("%d, ", a[index]);
 			}
 			else
 			{
-				printf("%d\n",a[index]);
+				printf("%d\n", a[index]);
 			}
-			
 			index += 1;
 		}
 	}
