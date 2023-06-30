@@ -22,11 +22,11 @@ void puts2(char *str)
 
 		if ((reg_size % 2) != 0)
 		{
-			half_size = (reg_size/2) + 1;
+			half_size = (reg_size / 2) + 1;
 		}
 		else
 		{
-			half_size = reg_size/2;
+			half_size = reg_size / 2;
 		}
 		
 		half_reg = (char *) malloc(half_size);
