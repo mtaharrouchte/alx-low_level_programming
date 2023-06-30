@@ -27,9 +27,9 @@ void puts2(char *str)
 		else
 		{
 			half_size = reg_size / 2;
-		}	
-		half_reg = (char *) malloc(half_size);
+		}
 
+		half_reg = (char *) malloc(half_size);
 		while ((index_0 < reg_size) && (index_1 < half_size))
 		{
 			*(half_reg + index_1) = *(str + index_0);
