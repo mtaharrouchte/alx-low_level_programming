@@ -29,12 +29,13 @@ void print_array(int *a, int n)
 				{
 					printf("%d\n", a[index]);
 				}
+
 				index += 1;
 			}
 		}
 		else
 		{
-			printf("%d\n", a[index]);
+			printf("/0\n");
 		}
 	}
 	else
