@@ -21,7 +21,6 @@ void print_array(int *a, int n)
 		{
 			while (index < n)
 			{
-				
 				if (index != n - 1)
 				{
 					printf("%d, ", a[index]);
@@ -30,7 +29,6 @@ void print_array(int *a, int n)
 				{
 					printf("%d\n", a[index]);
 				}
-
 				index += 1;
 			}
 		}
