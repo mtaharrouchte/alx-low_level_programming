@@ -35,7 +35,7 @@ void print_array(int *a, int n)
 		}
 		else
 		{
-			printf("/0\n");
+			printf("\n");
 		}
 	}
 	else
