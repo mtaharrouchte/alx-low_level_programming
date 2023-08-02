@@ -1,5 +1,4 @@
-#include "holberton.h"
-
+#include "main.h"
 /**
  * _strncat - THis is the main
  * @dest: This is the dest

@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * _strspn - This is my function
  * @s: This is the string literal
